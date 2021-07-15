@@ -30,28 +30,28 @@ body {
   background-image: url(https://images.unsplash.com/photo-1578364249730-0c4ee16426fa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhY2tncm91bmQlMjBtb2JpbGUlMjBzcGFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
   animation-name: animacao;
   animation-duration: 0s;
-  margin: 2rem 1rem;
+  margin: 1rem .5rem;
 }
 
-.name{
+.name {
   color: var(--title-color);
   font: var(--font-title);
   font-size: 1.4rem;
 }
 
-.title{
+.title {
   color: var(--title-color);
   font: var(--font-title);
   font-size: 1rem;
   margin-bottom: 1rem;
 }
 
-p.text{
+p.text {
   font-size: 1rem;
 }
 
-.description{
-  margin-left: .6rem;
+.description {
+  margin-left: 0.6rem;
 }
 
 p {
@@ -64,7 +64,6 @@ p {
   height: 1px;
   background: linear-gradient(270deg, hsl(0, 4%, 11%), rgb(173, 169, 166));
 }
-
 
 /*==Header==*/
 
@@ -91,31 +90,28 @@ p {
   color: #fff;
 }
 
-
 /*==Header==*/
 
 /*Work-1*/
 
-.image
-{
+.image {
   display: flex;
   justify-content: center;
 }
 
-#work-1{
+#work-1 {
   margin-top: 1.5rem;
 }
 
-#work-1 .container{
-
+#work-1 .container {
 }
 
-#work-1 img{
+#work-1 img {
   width: auto;
-  height: 12rem;
+  height: 10rem;
 }
 
-.swiper-button-prev, 
-.swiper-button-next{
+.swiper-button-prev,
+.swiper-button-next {
   color: red;
 }
