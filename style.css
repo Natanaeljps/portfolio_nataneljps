@@ -1,8 +1,10 @@
-@keyframes animacao{
-
-  from {background-color: purple;}
-  to {background-color: yellow;}
-
+@keyframes animacao {
+  from {
+    background-color: purple;
+  }
+  to {
+    background-color: yellow;
+  }
 }
 
 /*Reset*/
@@ -13,30 +15,107 @@
   text-decoration: none;
 }
 
-
-
 /*Variables*/
 :root {
   /*fonts*/
-  --font-text: 300 1rem 'Oswald', sans-serif;
+  --font-text: 300 1.3rem 'Oswald', sans-serif;
   --font-title: 400 1rem 'Otomanopee One', sans-serif;
   /* colors */
-
- 
+  --text-color: #fff;
+  --title-color: rgb(228, 220, 220);
 }
 
+/*== Layout ==*/
 body {
   background-image: url(https://images.unsplash.com/photo-1578364249730-0c4ee16426fa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhY2tncm91bmQlMjBtb2JpbGUlMjBzcGFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
   animation-name: animacao;
-  animation-duration: 2s;
+  animation-duration: 0s;
+  margin: 3rem 1.5rem;
 }
 
-.devider{
+.name{
+  color: var(--title-color);
+  font: var(--font-title);
+  font-size: 1.4rem;
+}
+
+.title{
+  color: var(--title-color);
+  font: var(--font-title);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+p.text{
+  font-size: 1rem;
+}
+
+.description{
+  margin-left: .6rem;
+}
+
+p {
+  color: var(--text-color);
+  font: var(--font-text);
+}
+
+.devider {
   margin-top: 1rem;
   height: 1px;
-  background: linear-gradient(
-    270deg,
-    hsl(0, 4%, 11%),
-    rgb(173, 169, 166)
-  );
+  background: linear-gradient(270deg, hsl(0, 4%, 11%), rgb(173, 169, 166));
+}
+
+
+/*==Header==*/
+
+#header img {
+  width: auto;
+  height: 12rem;
+  clip-path: circle();
+  position: relative;
+  z-index: 100;
+}
+#header .container {
+  margin: 2rem 0rem;
+  display: flex;
+}
+
+#web {
+  margin-top: -3.5rem;
+}
+
+#header i {
+  width: auto;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: #fff;
+}
+
+
+/*==Header==*/
+
+/*Work-1*/
+
+.image
+{
+  display: flex;
+  justify-content: center;
+}
+
+#work-1{
+  margin-top: 1.5rem;
+}
+
+#work-1 .container{
+
+}
+
+#work-1 img{
+  width: auto;
+  height: 12rem;
+}
+
+.swiper-button-prev, 
+.swiper-button-next{
+  color: red;
 }

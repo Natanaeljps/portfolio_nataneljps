@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Protifólio NatanaelJPS</title>
+    <!--Swipper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!--===Fonts===-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,8 +23,7 @@
     <link rel="stylesheet" href="header.css" />
     <!--===Icons===-->
     <link rel="stylesheet" href="./img/icomoon/style.css" />
-    <!--===JavaScript===-->
-    <script src="main.js"></script>
+    
   </head>
 
   <body>
@@ -26,11 +31,11 @@
       <div class="container">
         <h1 class="name">
           Natanael J P da Silva.
-          <p class="text">Estudante de Programação Software e Web.</p>
+          <p>Estudante de Programação Software e Web.</p>
         </h1>
         <div class="image">
           <img
-            src="https://avatars.githubusercontent.com/u/73533658?v=4"
+            src="./img/imager-user.png"
             alt="imagem do usuário"
           />
         </div>
@@ -53,7 +58,84 @@
         ></a>
       </div>
     </header>
-
     <div class="devider"></div>
+
+    <main class="swiper-container">
+      <div class="swiper-wrapper">
+
+        <section class="swiper-slide" id="work-1">
+          <div class="container">
+            <div class="image">
+              <img src="./img/Projetos/work1-desktop.jpg" alt="">
+            </div>
+            <div class="description">
+              <h3 class="title">Stats preview card component</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corrupti beatae possimus eaque recusandae nihil est ad cum omnis dolores nobis eos expedita voluptate numquam ea veniam, optio deserunt id.
+              </p>
+            </div>
+          </div>
+        </section>
+       
+    
+        <section class="swiper-slide" id="work-1">
+          <div class="container">
+            <div class="image">
+              <img src="./img/Projetos/work2-desktop.jpg" alt="">
+            </div>
+            <div class="description">
+              <h3 class="title">Stats preview card component</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corrupti beatae possimus eaque recusandae nihil est ad cum omnis dolores nobis eos expedita voluptate numquam ea veniam, optio deserunt id.
+              </p>
+            </div>
+          </div>
+        </section>
+  
+        <section class="swiper-slide" id="work-1">
+          <div class="container">
+            <div class="image">
+              <img src="./img/Projetos/work3-mobile.jpg" alt="">
+            </div>
+            <div class="description">
+              <h3 class="title">Stats preview card component</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corrupti beatae possimus eaque recusandae nihil est ad cum omnis dolores nobis eos expedita voluptate numquam ea veniam, optio deserunt id.
+              </p>
+            </div>
+          </div>
+        </section>   
+
+        <section class="swiper-slide" id="work-1">
+          <div class="container">
+            <div class="image">
+              <img src="./img/Projetos/work4-desktop.png" alt="">
+            </div>
+            <div class="description">
+              <h3 class="title">Stats preview card component</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corrupti beatae possimus eaque recusandae nihil est ad cum omnis dolores nobis eos expedita voluptate numquam ea veniam, optio deserunt id.
+              </p>
+            </div>
+          </div>
+        </section>  
+
+      </div>
+
+      <div class="devider"></div>
+
+      <!-- If we need pagination 
+      <div class="swiper-pagination"></div>
+        -->
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev "></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </main>
+
+    <!--===JavaScript===-->
+    <script src="main.js"></script>
   </body>
 </html>
