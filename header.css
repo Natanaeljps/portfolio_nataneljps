@@ -1,0 +1,50 @@
+/*Variables*/
+:root {
+  /*fonts*/
+  --font-text: 300 1.2rem 'Oswald', sans-serif;
+  --font-title: 400 0.6rem 'Otomanopee One', sans-serif;
+  /* colors */
+
+  --text-color: #fff;
+  --title-color: rgb(228, 220, 220);
+
+ 
+}
+
+#header{
+  font: var(--font-title);
+}
+
+h1{
+  color: var(--title-color);
+}
+
+p{
+  color: var(--text-color);
+  font: var(--font-text);
+}
+
+img{
+  width: auto;
+  height: 10.5rem;
+  clip-path: circle();
+  position: relative;
+  z-index: 100;
+}
+.container{
+  margin: 2rem;
+  display: flex;
+}
+
+#web{
+  margin-top: -3rem;
+  margin-left: 2rem;
+
+}
+
+i{
+  width: auto;
+  font-size: 1.5rem;
+  margin: 0rem 0.5rem 0rem 0rem ;
+  color: #fff;
+}
